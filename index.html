@@ -96,7 +96,7 @@
                 <span class="title">Full Name<b>:</b></span>Tamana Sharma
               </li>
               <li>
-                <span class="title">Age<b>:</b></span>21 Years
+                <span class="title">Age<b>:</b></span>23 Years
               </li>
               <li>
                 <span class="title">Language<b>:</b></span>English, Hindi, Punjabi
@@ -557,6 +557,28 @@
         });
       });
     });
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+    const experts = document.querySelectorAll(".card");
+
+    const observer = new IntersectionObserver(
+      (entries, observer) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("show");
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.4
+      }
+    );
+
+    experts.forEach((expert) => {
+      observer.observe(expert);
+    });
+  });
 
 
   </script>
