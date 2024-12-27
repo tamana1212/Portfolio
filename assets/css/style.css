@@ -1,7 +1,4 @@
-/*-------------------------------------------------
-  Fonts Family & Style CSS
----------------------------------------------------*/
-/*--  Poppins font  --*/
+
 @font-face {
   font-family: "Poppins, sans-serif";
   src: url("./../fonts/poppins/Poppins-Thin.ttf") format("truetype");
