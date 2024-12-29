@@ -168,6 +168,8 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    flex-direction: column;
+    align-items: flex-start;
   }
   .ms-hero .hero-content .ms-hero-detail .ms-hero-title span br {
     display: none;
