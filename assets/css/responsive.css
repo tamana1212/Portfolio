@@ -218,6 +218,9 @@
   .ms-contact .ms-box:hover:after {
     right: -15%;
   }
+  .ms-project-box{
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 767px) {
   .section-title h2 {
@@ -330,9 +333,6 @@
   .ms-project-box .portfolio-img {
     width: 100%;
     height: 200px;
-  }
-  .ms-project-box .portfolio-img a {
-    background-size: 100%;
   }
   .ms-project-box .ms-detail {
     padding: 30px 0 0 0;
