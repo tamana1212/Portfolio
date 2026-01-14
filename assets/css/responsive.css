@@ -316,6 +316,10 @@
   .ms-project-box .portfolio-img {
     width: 150px;
   }
+
+  .timeline-item{
+    height: max-content !important;
+  }
 }
 @media only screen and (max-width: 480px) {
   .ms-project-box .portfolio-img {
