@@ -2521,3 +2521,7 @@ progress[value]::after {
   flex-wrap: wrap;
   column-gap: 30px;
 }
+
+.my-link{
+  color: inherit !important;
+}
